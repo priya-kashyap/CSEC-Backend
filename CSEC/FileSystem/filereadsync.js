@@ -5,6 +5,12 @@ if(data.match("H")){
     console.log("File contains 'H'");
     const newdata=data.replace("H","ABES");
     fs.writeFileSync("./data.txt",newdata,"utf-8");
+
+
+
+
+
+    
 }
 //fs.writeFileSync("./data1.txt","Hello ABES","utf-8");
 //fs.writeFileSync("./data1.txt","Hello ABESEC","utf-8");
